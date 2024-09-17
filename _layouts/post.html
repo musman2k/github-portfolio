@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<p class="meta">
+  {{ page.date | date: "%Y-%m-%d" }}
+  <!--
+  <a href="/">
+    <i class="home fa fa-home"></i>
+  </a>
+  -->
+</p>
+
+<h4 class="title">{{ page.title }}</h4>
+
+<br>
+<div id="post">
+  {{ content }}
+</div>
+
+<!--
+<div id="related">
+  <h5>Related Posts</h5>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+    <li>
+      <span>{{ post.date | date: "%Y-%m-%d" }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+-->

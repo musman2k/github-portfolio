@@ -1,0 +1,20 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+highlight_color: '#3498db'
+
+# Profile links on the left sidebar, leave blank to ignore
+social-en:
+  github: musman2k
+  twitter: muy_2k
+  linkedin: usman-yousuf-2k
+
+# "Hi, I'm _______"
+name-en: Muhammad Usman
+email: usmanyousuf911@gmail.com
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key:
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: false

@@ -1,0 +1,12 @@
+<div class="disclaimer">
+  {% if site.data.theme.show_disclaimer %}
+  <p>
+    The postings on this site are my own.
+  </p>
+  {% endif %}
+
+  <p>
+    Last update: {{ 'now' | date: "%m-%d-%Y" }}<br>
+    © {{ 'now' | date: "%Y" }}  {{ site.data.theme.name-en }} &mdash; built with <a href="http://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/swanson/lagom">Lagom theme</a>
+  </p>
+</div>
